@@ -12,7 +12,7 @@ module.exports = {
 		// 配置代理，解决本地开发环境下跨域请求后台接口的问题，proxy 中的修改项修改完后需要重启项目才可生效
 		proxy: {
 			'/api': {
-				target: 'http://localhost:8080', //  本地开发环境 - 连接后台服务，协议 + IP + 端口
+				target: 'http://49.232.6.131:8022/', //  本地开发环境 - 连接后台服务，协议 + IP + 端口
 				ws: true, //是否跨域
 				changeOrigin: true,
 				pathRewrite: {
