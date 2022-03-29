@@ -1,7 +1,7 @@
 <template>
 	<div class="function-wrapper">
 		<div class="function-title">功能介绍</div>
-		<ul class="function-list">
+		<!--<ul class="function-list">
 			<li
 				class="function-item"
 				v-for="(item, index) in functionList"
@@ -22,7 +22,7 @@
 					</div>
 				</a>
 			</li>
-		</ul>
+		</ul>-->
 	</div>
 </template>
 

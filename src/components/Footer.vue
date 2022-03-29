@@ -23,7 +23,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="join-us">
+		<!--<div class="join-us">
 			<div class="desc">如果你也是对技术感兴趣的小伙伴，欢迎加入我们</div>
 			<ul class="join-list">
 				<li class="join-item" v-for="(item, index) in joinList" :key="index">
@@ -41,7 +41,7 @@
 					</el-popover>
 				</li>
 			</ul>
-		</div>
+		</div>-->
 	</div>
 </template>
 
@@ -53,8 +53,8 @@ export default {
 	data() {
 		return {
 			logoUrl: require('_a/images/common/logo_footer.png'),
-			webSiteName: '网站名称XXX',
-			licenseNo: '备案号XXX',
+			webSiteName: '海象网盘',
+			licenseNo: '京ICP备2021009969号',
 			joinList: [
 				{
 					class: 'qq',
@@ -92,8 +92,8 @@ export default {
 		getParamsDetailData() {
 			getParamsDetail({ groupName: 'copyright' }).then((res) => {
 				if (res.success) {
-					this.licenseNo = res.data.licenseKey || '备案号XXX'
-					this.webSiteName = res.data.domainChineseName || '网站名称XXX'
+					this.licenseNo = res.data.licenseKey || '京ICP备2021009969号'
+					this.webSiteName = res.data.domainChineseName || '海象网盘'
 				}
 			})
 		}
@@ -109,7 +109,7 @@ export default {
   display: flex;
 
   .copy-right-wrapper {
-    width: 65%;
+    width: 100%;
     color: $BorderLight;
     background: linear-gradient(to right, $Primary, #66b1ff);
     padding: 16px 0 16px 5vw;

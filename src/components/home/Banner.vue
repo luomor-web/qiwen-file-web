@@ -20,7 +20,7 @@
 					<el-button type="warning" round @click="goFile">
 						{{ item.btn }}
 					</el-button>
-					<div class="version-wrapper">
+					<!--<div class="version-wrapper">
 						<a
 							class="version-item"
 							v-for="(linkItem, linkIndex) in item.linkList"
@@ -33,7 +33,7 @@
 								>{{ linkItem.name }} <i class="el-icon-d-arrow-right"></i
 							></span>
 						</a>
-					</div>
+					</div>-->
 				</div>
 				<div class="carousel-img">
 					<img :src="item.bannerImg" />
@@ -56,7 +56,7 @@ export default {
 						'在线解压缩、在线预览、在线编辑文档',
 						'支持回收站、防止文件误删、全局搜索文件'
 					],
-					btn: '开源免费，立即体验',
+					btn: '立即体验',
 					linkList: [
 						{
 							name: '前端工程',
