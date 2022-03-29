@@ -1,7 +1,5 @@
 FROM nginx
 
-RUN fc-cache
-RUN fc-list
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' > /etc/timezone
 
