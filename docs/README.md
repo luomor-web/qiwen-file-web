@@ -10,3 +10,7 @@ sudo docker-compose up -d file-fe
 sudo docker-compose stop file-fe
 sudo docker-compose rm file-fe
 ```
+
+```
+nginx rewrite
+```
