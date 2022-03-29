@@ -13,4 +13,5 @@ sudo docker-compose rm file-fe
 
 ```
 nginx rewrite
+vue nginx
 ```
