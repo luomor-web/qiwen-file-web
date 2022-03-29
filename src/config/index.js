@@ -22,7 +22,7 @@ const config = {
 		process.env.NODE_ENV === 'production' &&
 		location.host.indexOf('.qiwenshare.com') !== -1
 			? '奇文网盘'
-			: '网盘名称',
+			: '海象网盘',
 	/**
 	 * 请求后台接口 URL 代理时的上下文
 	 * @description 仅适用于本地开发环境代理时使用，
